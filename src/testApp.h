@@ -5,6 +5,7 @@
 #include "ofxOpenNI.h"
 #include "ofMain.h"
 #include "ball.h"
+#include "Splat.h"
 
 class testApp : public ofBaseApp{
 
@@ -15,10 +16,13 @@ public:
 	void draw();
     void exit();
     void drawSplat();
+	void playSplatSound();
 
     void userEvent(ofxOpenNIUserEvent & event);
     
 	ofxOpenNI openNIDevice;
+	
+	ofSoundPlayer  splatSound;
     
     ofTrueTypeFont verdana;
 	
@@ -40,16 +44,23 @@ public:
 	ofVec2f lastTarget;
 	bool hasHit;
 	
-	ofImage targetHitImg;
+	ofImage splat[7];
+	int currentSplat;
 	
 	ball myBall;
 	
 //	ofImage leftHandImg;
 //	ofImage rightHandImg;
 	
+	int requiredScore;
 	int score;
 	float now;
 	
+	bool playing; //false when GAME OVER
+	bool handTouching;
+	
+	
+	vector<Splat> splatList;
 
 	
     

@@ -20,15 +20,11 @@ void ball::init(){
 		string food = "images/food" + ofToString(i) + ".png";
 		handImg[i].loadImage(food);
 	}
-	
-//	.loadImage("images/tomato.png");
+
 
 }
 void ball::update(ofVec3f hand, ofVec3f prev_hand, ofVec3f handVel){
 	
-	// load svg file
-//	ofxSVG svg;  
-//	svg.load("tomato.svg"); 
 	
 	//Trigger the average tracking
 	//80 is the threshold!
@@ -65,26 +61,24 @@ void ball::update(ofVec3f hand, ofVec3f prev_hand, ofVec3f handVel){
 
 void ball::draw(ofVec3f hand){
 	
-	
 	ofPushMatrix();
 	ofTranslate(0, 0, hand.z);
+	
 		if (isTracking) {
 			//ofSetColor(ofColor::red);
-		}else {
+		}
+		else {
 			//ofSetColor(ofColor::aquamarine);		
 		}
 		//ofCircle(pos.x, pos.y, pos.z * (-1), radius);
 	
 		if(pos.x > 5 && pos.y > 5){ //only draw if NOT in the corner.
 		
-		//handImg -> draw(pos.x, pos.y, pos.z*(-1), radius, radius);
-			cout << "draw food" << endl;
-		
-		handImg[currentFood].draw(pos.x, pos.y, pos.z*(-1), radius, radius);	
+			//handImg -> draw(pos.x, pos.y, pos.z*(-1), radius, radius);
+			//cout << "draw food" << endl;
 			
-			
+			handImg[currentFood].draw(pos.x, pos.y, pos.z*(-1), radius, radius);	
 		}
-		
 	
 	ofPopMatrix();	
 }
