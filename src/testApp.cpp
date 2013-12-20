@@ -7,7 +7,7 @@ void testApp::setup() {
 	// 1 = playing
 	// 2 = game over
 	
-	min = 45000;
+	min = 60000;
 	
 	bg.loadImage("images/background.png");
 	
