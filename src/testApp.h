@@ -8,7 +8,7 @@
 #include "Splat.h"
 
 class testApp : public ofBaseApp{
-
+	
 public:
     
 	void setup();
@@ -17,7 +17,7 @@ public:
     void exit();
     void drawSplat();
 	void playSplatSound();
-
+	
     void userEvent(ofxOpenNIUserEvent & event);
     
 	ofxOpenNI openNIDevice;
@@ -26,6 +26,21 @@ public:
     
     ofTrueTypeFont verdana;
 	
+	// body
+	ofVec2f head;
+	ofVec3f rightShoulder;
+	ofVec2f	leftShoulder;
+	ofVec2f	rightElbow;
+	ofVec2f leftElbow;
+	ofVec2f rightHip;
+	ofVec2f leftHip;
+	ofVec2f rightKnee;
+	ofVec2f leftKnee;
+	ofVec2f rightFoot;
+	ofVec2f leftFoot;
+	ofVec2f torsoJoint;
+	
+	//Throw Tracking
 	ofVec3f rightHand;
 	ofVec3f leftHand;
 	ofVec3f hand;
@@ -49,19 +64,25 @@ public:
 	
 	ball myBall;
 	
-//	ofImage leftHandImg;
-//	ofImage rightHandImg;
+	ofImage bg; // bg img
+	
+	//	ofImage leftHandImg;
+	//	ofImage rightHandImg;
 	
 	int requiredScore;
 	int score;
 	float now;
 	
-	bool playing; //false when GAME OVER
+	int gameStatus; // 0 = start screen
+	// 1 = playing
+	// 2 = game over
 	bool handTouching;
 	
 	
 	vector<Splat> splatList;
-
+	
+	int min; // length of time for levels
+	
 	
     
 };
