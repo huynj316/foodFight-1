@@ -7,7 +7,7 @@ void testApp::setup() {
 	// 1 = playing
 	// 2 = game over
 	
-	min = 60000;
+	min = 45000;
 	
 	bg.loadImage("images/background.png");
 	
@@ -68,9 +68,7 @@ void testApp::update(){
 	
 	ofSoundUpdate();
 	
-	int 
-	
-	= ofGetElapsedTimeMillis();
+	int currTime = ofGetElapsedTimeMillis();
 	
 	
 	//playing = false; //uncomment to see gameover screen
@@ -436,6 +434,9 @@ void testApp::draw(){
 	} else if (gameStatus == 2) {
 		
 		//	ofRect(	//draw rect over background
+		
+		// draw bg
+		bg.draw(-200, 0);
 		
 		//restart button
 		ofSetColor(ofColor::green);
