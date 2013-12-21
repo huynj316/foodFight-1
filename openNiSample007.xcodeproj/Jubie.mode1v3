@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CB5A2E191865048A0088600A</string>
+										<string>CB5A2E521865132A0088600A</string>
 										<key>history</key>
 										<array>
 											<string>CB95A80E183B024C00E029BC</string>
@@ -343,7 +343,7 @@
 											<string>CB5A2D15185AA1C00088600A</string>
 											<string>CB5A2DAC185D0F1F0088600A</string>
 											<string>CB5A2DAD185D0F1F0088600A</string>
-											<string>CB5A2E0F1864F3B90088600A</string>
+											<string>CB5A2E191865048A0088600A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -401,9 +401,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>CB5A2E1A1865048A0088600A</string>
+				<string>CB5A2E4C186512EC0088600A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>CB5A2E1B1865048A0088600A</string>
+				<string>CB5A2E4D186512EC0088600A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -541,6 +541,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>CB5A2E5A1865132A0088600A</string>
+		<string>CB5A2E5B1865132A0088600A</string>
+		<string>CB5A2E5C1865132A0088600A</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>CB17454C1831D37800F0E1BE</string>
 		<string>/Applications/of_v0.8.0_osx_release/apps/git_repository/Food-fight-2hands-foodArray/openNiSample007.xcodeproj</string>
 	</array>
@@ -622,7 +627,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>CB17454C1831D37800F0E1BE</string>
-				<string>CB5A2E1C1865048A0088600A</string>
+				<string>CB5A2E4E186512EC0088600A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -744,13 +749,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>CB5A2DB3185D0F1F0088600A</string>
+				<string>CB5A2E531865132A0088600A</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>CB5A2DB4185D0F1F0088600A</string>
-				<string>CB5A2DB5185D0F1F0088600A</string>
-				<string>CB5A2DB6185D0F1F0088600A</string>
-				<string>CB5A2DB7185D0F1F0088600A</string>
-				<string>CB5A2DB8185D0F1F0088600A</string>
+				<string>CB5A2E541865132A0088600A</string>
+				<string>CB5A2E551865132A0088600A</string>
+				<string>CB5A2E561865132A0088600A</string>
+				<string>CB5A2E571865132A0088600A</string>
+				<string>CB5A2E581865132A0088600A</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -912,7 +917,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>CB5A2DB9185D0F1F0088600A</string>
+				<string>CB5A2E591865132A0088600A</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

@@ -3,11 +3,11 @@
 //--------------------------------------------------------------
 void testApp::setup() {
 	
-	gameStatus = 0; // 0 = start screen
+	gameStatus = 2; // 0 = start screen
 	// 1 = playing
 	// 2 = game over
 	
-	min = 45000;
+	min = 60000;
 	
 	bg.loadImage("images/background.png");
 	
